@@ -1,0 +1,29 @@
+{
+  "name": "prisma-generator-dmmf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/generator.js",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "prisma-generator-dmmf": "dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/generator-helper": "^4",
+    "@prisma/internals": "^4.16.2"
+  },
+  "devDependencies": {
+    "@prisma/client": "^4",
+    "@types/node": "^22.5.5",
+    "prettier": "^3.3.3",
+    "prisma": "^4",
+    "typescript": "^5.4"
+  }
+}
